@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 # == Schema Information
 #
 # Table name: group_events
@@ -15,6 +17,5 @@
 #
 FactoryBot.define do
   factory :group_event do
-    
   end
 end
