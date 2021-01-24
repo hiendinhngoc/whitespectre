@@ -29,6 +29,7 @@ gem "bootsnap", ">= 1.4.2", require: false
 gem "acts_as_paranoid", "~> 0.7.0"
 gem "rswag"
 gem "rubocop-rails_config"
+gem "jsonapi-serializer"
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
@@ -36,6 +37,7 @@ group :development, :test do
   gem "rspec-rails", "~> 4.0.2"
   gem "factory_bot_rails"
   gem "shoulda-matchers", "~> 4.0"
+  gem "faker", git: "https://github.com/faker-ruby/faker.git", branch: "master"
 end
 
 group :development do
